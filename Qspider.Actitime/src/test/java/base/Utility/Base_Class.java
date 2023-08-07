@@ -23,6 +23,7 @@ public class Base_Class {
 	Webdriver_Utility wu=new Webdriver_Utility();
 	@BeforeSuite(alwaysRun = true)
 	//new changes
+	//newwwww
 	public void databaseconn() {
 		System.out.println("connection");
 	}
