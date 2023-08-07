@@ -22,6 +22,7 @@ public class Base_Class {
 	Propertyfile_utility p=new Propertyfile_utility();
 	Webdriver_Utility wu=new Webdriver_Utility();
 	@BeforeSuite(alwaysRun = true)
+	//new changes
 	public void databaseconn() {
 		System.out.println("connection");
 	}
