@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T10:23:14 IST" name="Suite" finished-at="2023-02-20T10:24:49 IST" duration-ms="94381">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T10:23:14 IST" name="Test" finished-at="2023-02-20T10:24:49 IST" duration-ms="94381">
+      <class name="testcase.Click_task">
+        <test-method is-config="true" signature="databaseconn()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:14 IST" name="databaseconn" finished-at="2023-02-20T10:23:14 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseconn -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:14 IST" name="launchbrowser" finished-at="2023-02-20T10:23:20 IST" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:20 IST" name="login" finished-at="2023-02-20T10:23:36 IST" duration-ms="15172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="taskc()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:36 IST" name="taskc" finished-at="2023-02-20T10:23:48 IST" duration-ms="12583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskc -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:48 IST" name="logout" finished-at="2023-02-20T10:23:52 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:23:52 IST" name="closebrowser" finished-at="2023-02-20T10:23:53 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:testcase.Click_task@201a4587]" started-at="2023-02-20T10:24:49 IST" name="closeDB" finished-at="2023-02-20T10:24:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- testcase.Click_task -->
+      <class name="testcase.Click_reports">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcase.Click_reports@1151e434]" started-at="2023-02-20T10:23:53 IST" name="launchbrowser" finished-at="2023-02-20T10:23:54 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testcase.Click_reports@1151e434]" started-at="2023-02-20T10:23:54 IST" name="login" finished-at="2023-02-20T10:24:06 IST" duration-ms="12184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="reportc()[pri:0, instance:testcase.Click_reports@1151e434]" started-at="2023-02-20T10:24:06 IST" name="reportc" finished-at="2023-02-20T10:24:21 IST" duration-ms="15525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportc -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcase.Click_reports@1151e434]" started-at="2023-02-20T10:24:21 IST" name="logout" finished-at="2023-02-20T10:24:24 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testcase.Click_reports@1151e434]" started-at="2023-02-20T10:24:24 IST" name="closebrowser" finished-at="2023-02-20T10:24:24 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcase.Click_reports -->
+      <class name="testcase.Click_on_user">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcase.Click_on_user@2dc54ad4]" started-at="2023-02-20T10:24:24 IST" name="launchbrowser" finished-at="2023-02-20T10:24:25 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testcase.Click_on_user@2dc54ad4]" started-at="2023-02-20T10:24:25 IST" name="login" finished-at="2023-02-20T10:24:38 IST" duration-ms="12678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="userc()[pri:0, instance:testcase.Click_on_user@2dc54ad4]" started-at="2023-02-20T10:24:38 IST" name="userc" finished-at="2023-02-20T10:24:47 IST" duration-ms="8639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userc -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcase.Click_on_user@2dc54ad4]" started-at="2023-02-20T10:24:47 IST" name="logout" finished-at="2023-02-20T10:24:48 IST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testcase.Click_on_user@2dc54ad4]" started-at="2023-02-20T10:24:48 IST" name="closebrowser" finished-at="2023-02-20T10:24:49 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcase.Click_on_user -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
